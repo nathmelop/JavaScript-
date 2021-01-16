@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eventos DOM</title>
+    <style>
+        div#area {
+            font: normal 20pt arial;
+            background: aqua;
+            color: white;
+            width: 700px;
+            height: 200px;
+            line-height: 200px;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="area">
+        <!-- onclick="clicar()" onmouseenter="entrar()" onmouseout="sair()" caso queira utilizar essa função no html--->
+        interaja...
+    </div>
+
+    <script>
+        var a = window.document.getElementById('area')
+            // usa no js para deixar o css limpo  
+        a.addEventListener('click', clicar)
+        a.addEventListener('mouseenter', entrar)
+        a.addEventListener('mouseout', sair)
+
+
+        function clicar() {
+            a.innerText = 'FEIAAAA LOVE,UUU!!!'
+            a.style.background = 'red'
+        }
+
+        function entrar() {
+            a.innerText = 'Passando para falar que você é muito feiosa, agora click!!'
+        }
+
+        function sair() {
+            a.innerText = 'Camila feiosa, Vemk, chega mais xuxu'
+            a.style.background = 'blue'
+        }
+    </script>
+
+</body>
+
+</html>

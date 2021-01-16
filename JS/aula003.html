@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Programa JS</title>
+    <style>
+        body {
+            background-color: rgb(128, 128, 238);
+            color: white;
+            font: normal 15pt arial;
+        }
+        
+        h1 {
+            color: rgb(170, 255, 1);
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Olá Mundo!!</h1>
+    <p>Já me livrei da maldição!!!!</p>
+    <script>
+        var n1 = Number.parseInt(window.prompt('Digite seu um numero')) //resulta como string
+            //tenho que transformar a string > numero   
+            //number.parseInt(n) com (Real) .  é number.parseFloat(n)
+            // Pode usar também o number (que ele praticamente se vira)
+            // numero > string  =   string(n) ou n.toString() 
+
+        var n2 = Number.parseInt(window.prompt('Digite o numero da sua mae'))
+        var s = n1 + n2
+        window.alert('A soma entre ' + n1 + ' e ' + n2 + ' é ' + s)
+    </script>
+
+</body>
+
+</html>
