@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Justiça Federal</title>
+</head>
+
+<body>
+    <h1>Sistema de Estrangeiros entrando no Brasil</h1>
+    Qual pais você mora: <input type="text" name="txtnac" id="txtnac">
+    <input type="button" value="Verificar Nacionalidade" onclick="verificar()">
+    <div id="res"></div>
+
+
+    <script>
+        function verificar() {
+            var txtn = window.document.querySelector('input#txtnac')
+            var res = window.document.querySelector('div#res')
+                //aqui é alguma variavel para aparecer o valor que eu n encontrei qual é 
+            res.innerHTML = `<p>Você é ${txtres} </p>`
+        }
+    </script>
+
+</body>
+
+</html>
