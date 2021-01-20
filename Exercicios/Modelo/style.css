@@ -1,0 +1,30 @@
+body {
+    background: rgb(155, 155, 250);
+    font: normal 15pt arial;
+}
+
+header {
+    color: white;
+    text-align: center;
+    /*Deixa no centro */
+}
+
+section {
+    background: white;
+    border-radius: 10px;
+    /* é a borda redonda */
+    padding: 20px;
+    /*Aumenta a borda pra cima */
+    width: 500px;
+    /*é a largura da borda*/
+    margin: auto;
+    /*deixa centralizado*/
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.404);
+    /*Sombra na borda*/
+}
+
+footer {
+    color: white;
+    text-align: center;
+    font: unset;
+}
