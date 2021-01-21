@@ -34,7 +34,7 @@ console.log(sum(5, 2, 1, 6, 1));
 
 const multiply = (...args) => args.reduce((acc, value) => acc * value, 1);
 const sum = (...rest) => {
-    return multiply(...r est);
+    return multiply(...rest);
 };
 console.log(sum(5, 2, 1, 6, 1));
 
