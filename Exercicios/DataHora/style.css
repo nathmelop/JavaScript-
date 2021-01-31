@@ -1,30 +1,28 @@
 body {
-    background: rgb(155, 155, 250);
+    background: rgb(180, 121, 240);
     font: normal 15pt arial;
 }
 
 header {
-    color: white;
+    color: rgb(0, 0, 0);
     text-align: center;
-    /*Deixa no centro */
 }
 
 section {
     background: white;
     border-radius: 10px;
-    /* é a borda redonda */
-    padding: 20px;
-    /*Aumenta a borda pra cima */
+    /*deixar um espaço dentro */
+    padding: 10px;
+    /*lagura na tela */
     width: 500px;
-    /*é a largura da borda*/
+    /*para centralizar*/
     margin: auto;
-    /*deixa centralizado*/
-    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.404);
-    /*Sombra na borda*/
+    /*sombra: descolamento lateral, vertical, espalhamento, e a cor */
+    box-shadow: 5px 5px 10px black;
 }
 
 footer {
-    color: white;
+    color: rgb(0, 0, 0), 29, 28);
     text-align: center;
-    font: unset;
+    font: italic;
 }
