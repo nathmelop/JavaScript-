@@ -21,8 +21,17 @@ section {
     box-shadow: 5px 5px 10px black;
 }
 
+div {
+    text-align: center;
+}
+
+div img {
+    border-radius: 50%;
+    width: 35%;
+}
+
 footer {
-    color: rgb(0, 0, 0), 29, 28);
+    color: rgb(0, 0, 0);
     text-align: center;
     font: italic;
 }
