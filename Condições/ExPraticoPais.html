@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Justiça Federal</title>
 </head>
 
@@ -18,8 +19,13 @@
         function verificar() {
             var txtn = window.document.querySelector('input#txtnac')
             var res = window.document.querySelector('div#res')
-                //aqui é alguma variavel para aparecer o valor que eu n encontrei qual é 
-            res.innerHTML = `<p>Você é ${txtres} </p>`
+            var pais = String(txtn.value)
+            if (pais == 'brasil') {
+                res.innerHTML = "<p>Você é <strong>Brasileiro</strong></p>"
+            } else {
+                res.innerHTML = "<p>Você é <strong>estrangeiro</strong></p>"
+            }
+            res.innerHTML += "Somos todos <strong>Humanos</strong>!!!"
         }
     </script>
 

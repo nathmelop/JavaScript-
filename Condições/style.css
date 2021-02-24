@@ -1,0 +1,11 @@
+body {
+    background: cadetblue;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 2%;
+    text-align: center;
+    font-size: 4vh;
+}
+
+h1 {
+    font-size: 6vh;
+}
