@@ -1,0 +1,13 @@
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: chocolate;
+    color: cornsilk;
+    font-size: 4vh;
+}
+
+h1 {
+    font-family: sans-serif;
+}
